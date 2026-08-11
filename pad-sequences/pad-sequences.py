@@ -22,4 +22,3 @@ def pad_sequences(seqs, pad_value=0, max_len=None):
         result[i, :length] = seq[:length]
 
     return result
-    pass
